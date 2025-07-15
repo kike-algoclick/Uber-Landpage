@@ -18,7 +18,7 @@ class UberInterface extends HTMLElement {
             </div>
  
             <div class="flex gap-4 items-center mt-6">
-              <button class="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">See prices</button>
+              <button class=" bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800 transition">See prices</button>
               <a href="#" class="text-black underline font-semibold hover:text-gray-700 transition">Log in to see your recent activity</a>
             </div>
           </div>

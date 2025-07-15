@@ -38,23 +38,29 @@ class PlanForLater extends HTMLElement {
   </section>
 
   <!-- Reservar el viaje -->
-  <section class="bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
+  <section class="flex bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
     <div class="rounded-xl overflow-hidden aspect-video mb-3">
       <img src="./images/Img1.png" alt="Schedule" class="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]" />
     </div>
+    
+    <div class=" grid w-175 text-center justify-center items-center">
     <h2 class="text-lg font-semibold mb-1">The Uber you know, remagined for business</h2>
     <p class="text-sm text-gray-600 mb-3">User for Business is a platform for managing global rides and meals, and local delivers, for companies of any size</p>
     <button class="w-full bg-black text-white py-2 rounded-xl text-sm hover:bg-gray-800 focus-visible:outline-none focus:ring-2 focus:ring-black transition">Get started</button>
+    </div>
   </section>
 
   <!-- Conduce y gana -->
-  <section class="bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
+  <section class="flex justify-center bg-white rounded-2xl p-4 shadow-md hover:shadow-lg transition-all duration-300 transform hover:scale-[1.02]">
     <div class="rounded-xl overflow-hidden aspect-video mb-3">
       <img src="./images/Img2.png" alt="Drive" class="w-full h-full object-cover transition-transform duration-300 hover:scale-[1.03]" />
     </div>
+
+    <div class="grid w-175 text-center justify-center items-center">
     <h2 class="text-lg font-semibold mb-1">Drive with Uber</h2>
     <p class="text-sm text-gray-600 mb-3">Earn money driving on your own schedule</p>
     <button class="w-full bg-black text-white py-2 rounded-xl text-sm hover:bg-gray-800 focus-visible:outline-none focus:ring-2 focus:ring-black transition">Get Started</button>
+    </div>
   </section>
 
 </main>
