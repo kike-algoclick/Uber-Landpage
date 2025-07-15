@@ -1,0 +1,16 @@
+.my-navbar{
+    background-color: #111213;
+    overflow: hidden;
+    position: fixed;
+    color:  #f8f9fc;
+    width: 100%;
+}
+
+.sign-up{
+    color: #1d1e20;;
+}
+
+ul{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    font-size: smaller;
+}
